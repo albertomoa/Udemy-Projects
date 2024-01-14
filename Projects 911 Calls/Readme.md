@@ -1,1 +1,3 @@
+In this project we will answer some question and conduct data exploratory to gain some insight from the dataset. 
 
+The dataset, consisting of 9 columns and 99492 entries, reveals missing values in the zip, twp, and addr_columns, to be confirmed using the .isna() method. Adjustments are necessary as certain data types are not applicable; the timestamp column will be converted to datetime, and zip to an integer. Subsequently, missing values in the zip, twp, and addr columns, identified as strings, will be dropped. Analysis using a heatmap graph indicates a surge in 911 calls during peak hours (13 to 17) on weekdays. Additionally, a clustermap highlights that Friday and month August have the highest incidence of 911 calls in the dataset.
